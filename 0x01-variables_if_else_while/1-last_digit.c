@@ -1,9 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio>
 /**
- * main - This program will assign a random number to the variable n
- *
- * Return 0
+ * main - Entry point
+ *Description: 'This program will assign a random number to the variable'
+ * Return: 0
  */
 int main(void)
 {
@@ -12,6 +13,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
+	/* your code goes there */
 	lastnum = n % 10;
 	if (lastnum > 5)
 	{
