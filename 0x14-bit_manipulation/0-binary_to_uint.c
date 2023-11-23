@@ -8,6 +8,7 @@
  * in the string b that is not 0 or 1, or if b is NULL.
  */
 unsigned int binary_to_uint(const char *b);
+
 {
 	unsigned int result = 0;
 
